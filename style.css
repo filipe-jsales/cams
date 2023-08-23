@@ -43,10 +43,18 @@ h3 {
 .container-certified-today {
     max-width: max-content;
     padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 120px;
-    padding-left: 120px;
-    background-color: #246175;
+    padding-bottom: 100px;
+    padding-right: 260px;
+    padding-left: 320px;
+    background-image: url(public/img/background-certified.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column-certified-today {
+    display: flex;
+    margin-top: 30px;
+    gap: 285px;
 }
 
 
@@ -54,7 +62,14 @@ h3 {
     display: flex;
     margin-top: 30px;
     gap: 151px;
+}
 
+.certified-row-1 {
+
+}
+
+.certified-row-2 {
+    margin-top: 55px;
 }
 
 
@@ -69,3 +84,9 @@ h3 {
 .text-white {
     color: #fff;
 }
+
+
+
+/* .content-wrap-1 {
+    background-image: url(public/img/undraw_certificate.png);
+} */

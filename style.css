@@ -1,5 +1,6 @@
 body {
     font-family: Inter, sans-serif;
+    margin: 0;
     background-color: #F5F5F5;
 }
 
@@ -16,10 +17,38 @@ h1 {
     line-height: 62px;
 }
 
+h2 {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .content-section {
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.container-certified-today {
+    max-width: max-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-color: #246175;
+}
+
 
 .container-certified {
     display: flex;
@@ -35,4 +64,8 @@ h1 {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+}
+
+.text-white {
+    color: #fff;
 }

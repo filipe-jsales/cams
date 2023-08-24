@@ -53,6 +53,11 @@ p {
     margin-bottom: 100px;
 }
 
+.frame-arrow-down {
+    text-align: center;
+    margin-top: 80px;
+}
+
 .div-input-email {
     width: 423px;
     height: 56px;
@@ -119,6 +124,12 @@ p {
     gap: 151px;
 }
 
+.container-certification-process {
+    display: flex;
+    margin-top: 30px;
+    gap: 210px;
+}
+
 .certified-row-1 {
 
 }
@@ -172,3 +183,12 @@ p {
     margin-left: 50px;
 }
 
+.container-our-certification-process {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title-certification-process {
+    margin-left: 10px;
+}

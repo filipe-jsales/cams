@@ -57,12 +57,10 @@ p {
     max-width: 100%;
     background-color: #fff;
     border-radius: 0 0 100% 100% ; /* top-left, top-right, bottom-right, bottom-left */
-
-
 }
 
 .content-section {
-    max-width: 1320px;
+    max-width: 1420px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -214,4 +212,11 @@ p {
 
 .upholding-section {
     margin-right: 122px;
+}
+
+.content-upholding-section-full {
+    max-width: 100%;
+    background: url('public/img/background-shape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

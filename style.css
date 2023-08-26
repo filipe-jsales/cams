@@ -91,10 +91,6 @@ header {
   background-color: #fff;
 }
 
-.logo img {
-  /* height: 50px; */
-}
-
 .nav-links {
   display: flex;
   gap: 40px;
@@ -463,13 +459,13 @@ footer {
   Contact Us Page
 */
 
-.container-contact-us {
+.container-contact {
   display: flex;
   /* margin-top: 30px; */
   gap: 151px;
 }
 
-.container-contact-us-hero {
+.container-contact-hero {
   max-width: 100%;
   background: linear-gradient(rgba(26, 71, 86, 0.75), rgba(26, 71, 86, 0.75)), url(public/img/hero-contact-us.png);
   background-repeat: no-repeat;

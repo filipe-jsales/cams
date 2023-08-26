@@ -22,6 +22,12 @@ input {
 
 button {
   padding: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
 }
 
 h1 {
@@ -66,7 +72,6 @@ ul {
 .text-center {
   text-align: center;
 }
-
 
 /* 
     End of Reset CSS
@@ -243,7 +248,6 @@ header {
 
 .container-certified {
   display: flex;
-  /* margin-top: 30px; */
   gap: 151px;
 }
 
@@ -453,7 +457,6 @@ footer {
   font-weight: 400;
 }
 
-
 /* 
 
   Contact Us Page
@@ -461,13 +464,13 @@ footer {
 
 .container-contact {
   display: flex;
-  /* margin-top: 30px; */
   gap: 151px;
 }
 
 .container-contact-hero {
   max-width: 100%;
-  background: linear-gradient(rgba(26, 71, 86, 0.75), rgba(26, 71, 86, 0.75)), url(public/img/hero-contact-us.png);
+  background: linear-gradient(rgba(26, 71, 86, 0.75), rgba(26, 71, 86, 0.75)),
+    url(public/img/hero-contact-us.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 105px;
@@ -475,34 +478,84 @@ footer {
 }
 
 .contact-info-location {
-  display: flex; 
+  display: flex;
   margin-bottom: 10px;
 }
 
-.contact-info-location > p{
+.contact-info-location > p {
   padding-top: 20px;
   padding-left: 10px;
 }
 
 .contact-info-phone {
-  display: flex; 
+  display: flex;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-.contact-info-phone > p{
+.contact-info-phone > p {
   padding-left: 10px;
 }
 
 .contact-info-mail {
-  display: flex; 
+  display: flex;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-.contact-info-mail > p{
+.contact-info-mail > p {
   padding-top: 5px;
   padding-left: 10px;
 }
 
+/* 
+  End of Contact Us Page
+*/
 
+/* 
+  Training Page
+
+*/
+
+.container-training {
+  display: flex;
+  gap: 20px;
+}
+
+.peer-academy-section {
+  background-color: #fff;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 0px;
+  border-radius: 16px;
+  text-justify: space-between;
+  margin-top: 39px;
+  margin-bottom: 42px;
+}
+
+.peer-academy-subtitle {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #576071;
+}
+
+.peer-academy-learn-more {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #246175;
+  display: flex;
+}
+
+.peer-academy-section p {
+  margin-bottom: 40px;
+}

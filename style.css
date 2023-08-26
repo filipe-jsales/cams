@@ -67,6 +67,7 @@ ul {
   text-align: center;
 }
 
+
 /* 
     End of Reset CSS
 */
@@ -451,3 +452,48 @@ footer {
   line-height: 18px;
   font-weight: 400;
 }
+
+
+/* 
+
+  Contact Us Page
+*/
+
+.container-contact-us {
+  display: flex;
+  /* margin-top: 30px; */
+  gap: 151px;
+}
+
+.contact-info-location {
+  display: flex; 
+  margin-bottom: 10px;
+}
+
+.contact-info-location > p{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.contact-info-phone {
+  display: flex; 
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-info-phone > p{
+  padding-left: 10px;
+}
+
+.contact-info-mail {
+  display: flex; 
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-info-mail > p{
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+

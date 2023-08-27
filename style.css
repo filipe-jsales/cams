@@ -257,6 +257,7 @@ header {
   gap: 210px;
 }
 
+
 .certified-row-1 {
   width: 100%;
 }
@@ -559,3 +560,64 @@ footer {
 .peer-academy-section p {
   margin-bottom: 40px;
 }
+
+/* 
+  Certification Page
+
+*/
+
+.certification-benefits-title {
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #576071;
+  padding-right: 76px;
+}
+
+.container-become-certified {
+  padding: 24px 32px 24px 32px;
+  border-radius: 16px;
+  gap: 32px;
+  background-color: #fff;
+}
+
+.title-certification-benefits {
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.certification-benefits-list {
+  padding: 10px 16px 10px 16px;
+  border-radius: 8px;
+  gap: 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  margin-bottom: 6px;
+}
+
+.certification-benefits-p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+
+}
+
+.container-certification-benefits-process {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+

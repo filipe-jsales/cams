@@ -630,22 +630,23 @@ footer {
 */
 
 .container-e-news {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 .e-news-card {
-
-
-
-
-
   flex: 1; /* Distribute available space equally among cards */
   max-width: 300px; /* Set a maximum width for each card */
   background-color: #fff;
   box-shadow: 0px 0px 44px 0px #0000000d;
-  padding: 24px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 15px;
   border-radius: 10px;
   text-justify: space-between;
+  display: flex; 
+  flex-direction: column;
 }
 
 .e-news-card-publish-tag {
@@ -674,7 +675,6 @@ footer {
   padding-bottom: 20px;
   width: 89%;
   margin-right: 0px;
-  min-height: 96px;
 }
 
 .e-news-card-buttons {

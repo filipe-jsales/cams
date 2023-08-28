@@ -128,6 +128,10 @@ header {
   padding-left: 8px;
 }
 
+/* 
+  End of  Header
+*/
+
 /*
 
     Home Page
@@ -136,7 +140,7 @@ header {
 .content-section-full {
   max-width: 100%;
   background-color: #fff;
-  border-radius: 0 0 100% 100%; /* top-left, top-right, bottom-right, bottom-left */
+  border-radius: 0 0 100% 100%;
 }
 
 .content-section {
@@ -213,11 +217,9 @@ header {
   border: none;
   background: none;
 
-  /* Resetting padding and margins */
   padding: 0;
   margin: 0;
 
-  /* Resetting font styles */
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -257,7 +259,6 @@ header {
   margin-top: 30px;
   gap: 210px;
 }
-
 
 .certified-row-1 {
   width: 100%;
@@ -371,11 +372,6 @@ footer {
   padding-bottom: 5px;
 }
 
-/* Styling for the logo in the footer */
-.footer-logo img {
-}
-
-/* Styling for the subtitle of the logo */
 .footer-subtitle {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -386,28 +382,24 @@ footer {
   font-weight: 400;
 }
 
-/* Styling for the column layout */
 .footer-columns {
   margin-left: 50px;
   display: flex;
   gap: 87px;
 }
 
-/* Styling for the left column */
 .left-column {
   flex: 1.2;
   display: flex;
   flex-direction: column;
 }
 
-/* Styling for the middle column */
 .middle-column {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-/* Styling for the right column */
 .right-column {
   flex: 1;
   display: flex;
@@ -416,7 +408,6 @@ footer {
   margin-bottom: 120px;
 }
 
-/* Styling for the contact information */
 .contact-info {
   font-size: 14px;
   color: #555;
@@ -430,7 +421,6 @@ footer {
   color: #576071;
 }
 
-/* Styling for the email and phone number */
 .footer-email {
   text-decoration: underline;
   margin-top: 5px;
@@ -458,6 +448,10 @@ footer {
   line-height: 18px;
   font-weight: 400;
 }
+
+/* 
+  End of  Footer
+*/
 
 /* 
 
@@ -563,6 +557,11 @@ footer {
 }
 
 /* 
+  End of  Training Page
+
+*/
+
+/* 
   Certification Page
 
 */
@@ -613,7 +612,6 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
-
 }
 
 .container-certification-benefits-process {
@@ -622,3 +620,66 @@ footer {
   padding-bottom: 25px;
 }
 
+/* 
+  End of Certification Page
+
+*/
+
+/* 
+  E-news Page
+*/
+
+.container-e-news {
+  display: flex;
+  gap: 24px;
+}
+.e-news-card {
+
+
+
+
+
+  flex: 1; /* Distribute available space equally among cards */
+  max-width: 300px; /* Set a maximum width for each card */
+  background-color: #fff;
+  box-shadow: 0px 0px 44px 0px #0000000d;
+  padding: 24px;
+  border-radius: 10px;
+  text-justify: space-between;
+}
+
+.e-news-card-publish-tag {
+  padding: 8px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #d3d5d9;
+  width: fit-content;
+  font-family: Inter, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5f5f5f;
+}
+
+.e-news-card-title {
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 89%;
+  margin-right: 0px;
+  min-height: 96px;
+}
+
+.e-news-card-buttons {
+  margin-top: auto; /* Push buttons to the bottom of the card */
+}
+/* 
+  End of E-news Page
+*/

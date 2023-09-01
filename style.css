@@ -705,5 +705,45 @@ footer {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #B5BBC3;
+  color: #b5bbc3;
+}
+
+.container-questions {
+  padding: 40px 32px 40px 32px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 24px;
+  background-color: #fff;
+  border: 1px solid #ADADAD;
+  height: fit-content;
+}
+
+.title-questions {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container-wrap-questions {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #D7E2E8;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.title-answer {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #576071;
+  border-bottom: 1px solid #D7E2E8;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

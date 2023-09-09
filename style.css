@@ -747,3 +747,88 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness */
+
+
+/* Training Page */
+
+@media screen and (max-width: 1296px) {
+  .container-training {
+    display: grid;
+    gap: 0px;
+  }
+
+  .peer-academy-img-section {
+    margin: 0 auto;
+  }
+
+  /* Container Certified today */
+
+  .container-certified-today {
+    padding: 50px;
+  }
+  .column-certified-today {
+    gap: 0px;
+  }
+
+  /* Contact us  */
+
+  .container-contact {
+    display: grid;
+    gap: 40px;
+  }
+
+  .upholding-section {
+    margin: 0 auto;
+  }
+
+  .container-contact-img {
+    margin: 0 auto;
+  }
+
+  /* About Us */
+  .container-contact-map-img {
+    margin: 0 auto;
+  }
+
+
+
+  /* Certifications */
+
+  .container-our-certification-process {
+    margin-left: 40px;
+  
+  }
+
+  .container-certification-benefits-process {
+    display: grid;
+  }
+
+  .certification-benefits-list {
+    max-width: 90%;
+  }
+
+  .container-benefits-from-certification {
+    margin: 0 auto;
+
+  }
+  .container-benefits-certification-img {
+    margin: 0 auto;
+  }
+
+  .container-certification-benefits-img {
+    margin: 0 auto;
+  }
+}
